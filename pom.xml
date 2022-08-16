@@ -141,6 +141,7 @@
           <compilerArgs>
             <arg>-Amicronaut.processing.group=com.example</arg>
             <arg>-Amicronaut.processing.module=mn-schema-override-exemplar</arg>
+            <arg>-J-Dmicronaut.openapi.property.naming.strategy=SNAKE_CASE</arg>
           </compilerArgs>
         </configuration>
       </plugin>
